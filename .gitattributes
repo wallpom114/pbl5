@@ -1,6 +1,11 @@
-*.py linguist-detectable=true
-*.html linguist-detectable=true
-*.css linguist-detectable=true
+# Phân loại HTML/CSS thành file documentation
+*.html linguist-documentation
+*.css linguist-documentation
+
+# Đảm bảo Python được nhận diện
+*.py linguist-language=Python
+
+# Giữ JavaScript bình thường
 *.js linguist-detectable=true
 
 
